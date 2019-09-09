@@ -1,0 +1,38 @@
+Dict = {} 
+print("Empty Dictionary: ") 
+print(Dict) 
+  
+Dict = {1: 'Cello', 2: 'Reynolds', 3: 'Nataraj'} 
+print("\nDictionary with the use of Integer Keys: ") 
+print(Dict) 
+  
+Dict = {'Name': 'Geeks', 1: [1, 2, 3, 4]} 
+print("\nDictionary with the use of Mixed Keys: ") 
+print(Dict) 
+  
+Dict = dict({1: 'Cello', 2: 'Reynolds', 3:'Nataraj'}) 
+print("\nDictionary with the use of dict(): ") 
+print(Dict) 
+  
+Dict = dict([(1, 'Cello'), (2, 'Reynolds')]) 
+print("\nDictionary with each item as a pair: ") 
+print(Dict) 
+
+
+
+***********output**********
+cs2016a114@cmruuser:~/Desktop$ python3 dictionarya.py
+Empty Dictionary: 
+{}
+
+Dictionary with the use of Integer Keys: 
+{1: 'Cello', 2: 'Reynolds', 3: 'Nataraj'}
+
+Dictionary with the use of Mixed Keys: 
+{'Name': 'Cello', 1: [1, 2, 3, 4]}
+
+Dictionary with the use of dict(): 
+{1: 'Cello', 2: 'Reynolds', 3: 'Nataraj'}
+
+Dictionary with each item as a pair: 
+{1: 'Cello', 2: 'Reynolds'}
